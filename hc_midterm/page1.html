@@ -1,12 +1,11 @@
 <!doctype html>
 <html>
-    <head>
+
+<head>
     <title>인문학과 창의성 중간과제</title>
     <meta charset="utf-8">
     <style>
         #inner_frame {
-            height = 600;
-            width = 600;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,13 +35,85 @@
             bottom: 0;
             margin-top: auto;
             margin-bottom: auto;
-        } 
+        }
 
         /* 세로 중앙 정렬 */
+
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+        figure.snip1132 {
+            font-family: 'Raleway', Arial, sans-serif;
+            overflow: hidden;
+            margin: 0px;
+            min-width: 585px;
+            min-height: 585px;
+            max-width: 585px;
+            max-height: 585px;
+            width: 100%;
+            background: #000000;
+            color: #ffffff;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        }
+
+        figure.snip1132 * {
+
+            -webkit-transition: all 0.45s ease-in-out;
+            transition: all 0.45s ease-in-out;
+        }
+
+        figure.snip1132 img {
+            max-width: 100%;
+            opacity: 1;
+        }
+
+        figure.snip1132:hover img,
+        figure.snip1132.hover img {
+            opacity: 0.35;
+            -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+        }
+
+        figure.snip1132 h3 {
+            padding: 200px 0px 0px 300px;
+            color: rgba(255, 255, 255, 0);
+        }
+
+        figure.snip1132:hover h3 {
+                    padding: 200px 0px 0px 300px;
+            color: rgba(255, 255, 255, 1);
+        }
+        
+        .title{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width = 585;
+            height = 585;
+        }
+
     </style>
+    <script>
+        function mover() {
+
+
+        }
+
+        function moveout() {
+
+        }
+
+    </script>
 </head>
 
 <body>
-   <img src = "images/one_cut.png" width = 500 height = 500>
+    <figure class="snip1132">
+        <img src="images/one_cut.png" width=585 height=585>
+        <div class = "title">
+            <h3>Infinity and Finite ME</h3>
+        </div>
+        <a href="#"></a>
+    </figure>
 </body>
+
 </html>

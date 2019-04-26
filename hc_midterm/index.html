@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <style>
         #inner_frame {
-            height = 600;
-            width = 600;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -26,9 +24,7 @@
             right: 0;
             margin-left: auto;
             margin-right: auto;
-        }
-
-        /* 가로 중앙 정렬 */
+        } /* 가로 중앙 정렬 */
 
         .vc {
             height: 600px;
@@ -36,16 +32,18 @@
             bottom: 0;
             margin-top: auto;
             margin-bottom: auto;
+        } /* 세로 중앙 정렬 */
+        
+        .borderset{
+            border: 1px inset #000000;
         }
-
-        /* 세로 중앙 정렬 */
     </style>
 </head>
 
 <body>
     <div id="cm" class="hc vc">
-        <div id = "inner_frame">
-            <iframe src="https://chan2ie.github.io/hc_midterm/page1.html" frameborder="0" width="500" height="500" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+        <div id = "inner_frame" class = "borderset hc vc">
+            <iframe src="/page1.html" frameborder="0" width=585px height=585px marginwidth="0" marginheight="0" scrolling="no"></iframe>
         </div>
     </div>
 </body>
