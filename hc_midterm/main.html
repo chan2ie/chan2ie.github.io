@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+    <title>인문학과 창의성 중간과제</title>
+    <meta charset="utf-8">
+    <style>
+        #inner_frame {
+            height = 600;
+            width = 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            position: relative;
+        }
+
+        #cm {
+            position: absolute;
+        }
+
+        .hc {
+            width: 600px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* 가로 중앙 정렬 */
+
+        .vc {
+            height: 600px;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        /* 세로 중앙 정렬 */
+    </style>
+</head>
+
+<body>
+    <div id="cm" class="hc vc">
+        <div id = "inner_frame">
+            <iframe src="/page1.html" frameborder="0" width="500" height="500" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+        </div>
+    </div>
+</body>
+</html>
