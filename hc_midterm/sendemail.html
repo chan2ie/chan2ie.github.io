@@ -49,7 +49,7 @@
         }
 
         p {
-            text-align: justify;
+            text-align: center;
             width: 575px;
             margin: 0px 0px 10px 5px;
             font-size: 10pt;
@@ -57,6 +57,7 @@
         }
 
         h2 {
+            text-align: center;
             margin: 0px 0px 10px 5px;
         }
 
@@ -85,14 +86,12 @@
         }
 
         img {
-            margin: 5px 0px 5px 5px;
             -webkit-filter: grayscale(100%);
             filter: gray;
 
         }
 
         img:hover {
-            margin: 5px 0px 5px 5px;
             -webkit-filter: grayscale(0%);
             filter: none;
         }
@@ -113,6 +112,9 @@
             text-shadow: 0 0 2px #000;
             transition: all 250ms ease-in;
         }
+        a{
+            text-align: center;
+        }
     </style>
     <script>
 
@@ -122,19 +124,37 @@
 
 <body>
     <div class="title paragraph">
-        <h2>ME</h2>
-        <p>On the other hand, what about me? My life will end in death one day. I am obviously a finite being, and that is why I am fundamentally different from infinity.</p>
-        <img src="./images/human_finity.gif" width="575px">
-        <p>Because my life is finite, all I can do, where I can go, and what I can experience is finite. It's as if I'm tied to a chain called life. The line is so long that I seem to be walking around freely, but in fact there are clear limits set prior to my existence.</p>
-        <p>For example, as of 2017, Korean women's life expectancy is about 86 years. I can probably live another 60 years or so from now on, and if I'm lucky enough to live a long life, I can live another 20 years. There are about 200 countries in the world, so if I try, I might be able to look around the world before I die. That would be an amazing achievement, but if I’m targeting the whole universe, not the whole world, it's impossible without having to calculate. My life span will not allow that. Then my limit would be Earth.</p>
+        <h2>I would love to hear from you!</h2>
+        <p>마음에 들었던 점, <Br>아쉽다고 생각했던 점, <br>하고 싶은 말 등 <br>자유롭게 적어서 보내주시면 꼭 참고하도록 하겠습니다. <br>읽어주셔서 감사합니다!<br>
+        
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- Style The Contact Form How Ever You Prefer -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxhan43QexxKKUd-dtq5wiUGln3giVfZvvzVTc3/exec">
+            <!-- change the form action to your script url -->
+
+            <fieldset class="pure-group">
+                <label for="name">Name: </label>
+                <input id="name" name="name" />
+            </fieldset>
+
+            <fieldset class="pure-group">
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="11"></textarea>
+            </fieldset>
+
+            <fieldset class="pure-group">
+                <label for="email"><em>Your</em> Email Address:</label>
+                <input id="email" name="email" type="email" value="" required />
+            </fieldset>
+            <button>
+                &nbsp;Send</button>
+        </form>
+        <div class="link">
+            <p><a href="./page1.html">back to first page</a></p>
+        </div>
     </div>
-    <div class="link">
-        <table width="575px">
-            <td> <a href="./page3.html">&#706 previous page
-                </a></td>
-            <td align="right"> <a href="./page5.html">
-                    next page &#707
-                </a></td>
-        </table>
-    </div>
+
 </body></html>
