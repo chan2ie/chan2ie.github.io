@@ -116,6 +116,10 @@
         a {
             text-align: center;
         }
+        
+        .font{
+            font-size: 10pt;
+        }
     </style>
     <script>
 
@@ -126,7 +130,7 @@
 <body>
     <div class="title paragraph">
         <h2>I would love to hear from you!</h2>
-        <p>What you liked, What you didn't liked, What you want to say, etc. <br>Please write it down freely and I'll refer to it. <br>Thank you for reading!<br>
+        <p>What you liked, <Br>What you didn't liked, <br>What you want to say, etc. <br>Please write it down freely and I'll refer to it. <br>Thank you for reading!<br>
 
             <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -136,19 +140,19 @@
             <form id="gform" method="POST"  class="pure-form pure-form-stacked" data-email="dl2cksgml@gmail.com" action="https://script.google.com/macros/s/AKfycbxhan43QexxKKUd-dtq5wiUGln3giVfZvvzVTc3/exec">
                 <!-- change the form action to your script url -->
 
-                <fieldset class="pure-group">
-                    <label for="name">Name: </label>
-                    <input id="name" name="name" />
+                <fieldset class="pure-group font">
+                    <label for="name font">Name: </label>
+                    <input id="name font" name="name" />
                 </fieldset>
 
-                <fieldset class="pure-group">
-                    <label for="message">Message: </label>
-                    <textarea id="message" name="message" rows="6"></textarea>
+                <fieldset class="pure-group font">
+                    <label for="message font">Message: </label>
+                    <textarea id="message font" name="message" rows="6"></textarea>
                 </fieldset>
 
-                <fieldset class="pure-group">
-                    <label for="email"><em>Your</em> Email Address:</label>
-                    <input id="email" name="email" type="email" value="" required />
+                <fieldset class="pure-group font">
+                    <label for="email font"><em>Your</em> Email Address:</label>
+                    <input id="email font" name="email" type="email" value="" required />
                 </fieldset>
                 <button>
                     &nbsp;Send</button>
