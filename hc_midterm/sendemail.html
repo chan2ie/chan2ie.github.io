@@ -3,7 +3,9 @@
 
 <head>
     <title>인문학과 창의성 중간과제</title>
-    <meta charset="utf-8">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
     <style>
         #inner_frame {
             display: flex;
@@ -116,6 +118,17 @@
         a {
             text-align: center;
         }
+
+        .font {
+            font-size: 10pt;
+        }
+        
+        .thanks{
+            position: absolute;
+            top: 300px;
+            left: 5px;
+        }
+
     </style>
     <script>
 
@@ -126,46 +139,46 @@
 <body>
     <div class="title paragraph">
         <h2>I would love to hear from you!</h2>
-        <p>What you liked, <Br>What you didn't liked, <br>What you want to say, etc. <br>Please write it down freely and I'll refer to it. <br>Thank you for reading!<br>
+        <p>마음에 들었던 점, <br>아쉽다고 생각했던 점, <br>하고싶은 말 등 <br>자유롭게 적어서 보내주시면 꼭 참고하도록 하겠습니다.<br>읽어주셔서 감사합니다!<br></p>
 
             <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
             <!-- Style The Contact Form How Ever You Prefer -->
             <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
 
-            <form id="gform" method="POST"  class="pure-form pure-form-stacked" data-email="dl2cksgml@gmail.com" action="https://script.google.com/macros/s/AKfycbxhan43QexxKKUd-dtq5wiUGln3giVfZvvzVTc3/exec">
+            <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="dl2cksgml@gmail.com" action="https://script.google.com/macros/s/AKfycbyiXT2qzIBidJxUaT0cyotypDVPlLeVG-oSyH2-_g/exec">
                 <!-- change the form action to your script url -->
 
-                <fieldset class="pure-group">
-                    <label for="name">Name: </label>
-                    <input id="name" name="name" />
+                <fieldset class="pure-group font">
+                    <label for="name font">Name: </label>
+                    <input id="name font" name="name" />
                 </fieldset>
 
-                <fieldset class="pure-group">
-                    <label for="message">Message: </label>
-                    <textarea id="message" name="message" rows="11"></textarea>
+                <fieldset class="pure-group font">
+                    <label for="message font">Message: </label>
+                    <textarea id="message font" name="message" rows="9"></textarea>
                 </fieldset>
 
-                <fieldset class="pure-group">
-                    <label for="email"><em>Your</em> Email Address:</label>
-                    <input id="email" name="email" type="email" value="" required />
+                <fieldset class="pure-group font">
+                    <label for="email font"><em>Your</em> Email Address:</label>
+                    <input id="email font" name="email" type="email" value="" required />
                 </fieldset>
                 <button>
                     &nbsp;Send</button>
             </form>
-            <!-- Customise the Thankyou Message People See when they submit the form: -->
-            <div style="display:none;" id="thankyou_message">
-                <h2>Thanks!</h2>
             </div>
-
-            <!-- Submit the Form to Google Using "AJAX" -->
-            <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-            <!-- <script data-cfasync="false" type="text/javascript"
-  src="/form-submission-handler.js"></script> -->
-            <!-- END -->
-            <div class="link">
-                <p><a href="./page1.html">back to first page</a></p>
-            </div>
+                <div style="display:none;" id="thankyou_message" class="thanks">
+        <p>감사합니다!</p>
     </div>
+    <div class="link">
+        <p><a href="./page1.html">back to first page</a></p>
+    </div>
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript"
+src="./form-submission-handler.js"></script>
+    <!-- END -->
 
-</body></html>
+</body>
+
+</html>
