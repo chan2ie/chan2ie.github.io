@@ -6,6 +6,7 @@ You can check out some of them below.
 [Move to Humanities and Creativity Midterm Project KOR](https://chan2ie.github.io/hc_midterm/index.html)  
 [Move to Humanities and Creativity Midterm Project ENG](https://chan2ie.github.io/hc_midterm_eng/index.html)
 
+Optimized for CHROME, WINDOW 10.  
 
 
 <!--## Welcome to GitHub Pages
