@@ -1,4 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome
+
+This page is used to save & implement school tasks.
+You can check out some of them below.
+
+[Move to Humanities and Creativity Midterm Project KOR](https://github.com/chan2ie/chan2ie.github.io/hc_midterm/index.html)
+[Move to Humanities and Creativity Midterm Project ENG](https://github.com/chan2ie/chan2ie.github.io/hc_midterm_eng/index.html)
+
+
+
+<!--## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/chan2ie/chan2ie.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -35,3 +45,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-->
