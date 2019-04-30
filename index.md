@@ -1,9 +1,9 @@
 ## Welcome
 
-This page is used to save & implement school tasks.
+This page is used to save & implement school tasks.  
 You can check out some of them below.
 
-[Move to Humanities and Creativity Midterm Project KOR](https://github.com/chan2ie/chan2ie.github.io/hc_midterm/index.html)
+[Move to Humanities and Creativity Midterm Project KOR](https://github.com/chan2ie/chan2ie.github.io/hc_midterm/index.html)  
 [Move to Humanities and Creativity Midterm Project ENG](https://github.com/chan2ie/chan2ie.github.io/hc_midterm_eng/index.html)
 
 
