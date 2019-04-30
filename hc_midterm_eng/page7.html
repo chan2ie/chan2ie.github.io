@@ -39,7 +39,52 @@
 
         /* 세로 중앙 정렬 */
 
-        .title {
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+        figure.snip1132 {
+            font-family: 'Raleway', Arial, sans-serif;
+            overflow: hidden;
+            margin: 0px;
+            min-width: 585px;
+            min-height: 585px;
+            max-width: 585px;
+            max-height: 585px;
+            width: 100%;
+            background: #000000;
+            color: #ffffff;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        }
+
+        figure.snip1132 * {
+
+            -webkit-transition: all 0.45s ease-in-out;
+            transition: all 0.45s ease-in-out;
+        }
+
+        figure.snip1132 img {
+            max-width: 100%;
+            opacity: 1;
+        }
+
+        figure.snip1132:hover img,
+        figure.snip1132.hover img {
+            opacity: 1;
+            -webkit-transform: scale(1.9);
+            transform: scale(1.9);
+        }
+
+        figure.snip1132 h3 {
+            padding: 200px 0px 0px 300px;
+            color: rgba(255, 255, 255, 0);
+        }
+
+        figure.snip1132:hover h3 {
+                    padding: 200px 0px 0px 300px;
+            color: rgba(255, 255, 255, 1);
+        }
+        
+        .title{
             position: absolute;
             top: 0px;
             left: 0px;
@@ -48,69 +93,6 @@
             margin: 0;
         }
 
-        p {
-            text-align: justify;
-            width: 575px;
-            margin: 0px 0px 10px 5px;
-            font-size: 10pt;
-
-        }
-
-        h2 {
-            margin: 0px 0px 10px 5px;
-        }
-
-        a:link {
-            color: black;
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: black;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        a {
-            font-size: 10pt;
-        }
-
-        .link {
-            position: absolute;
-            top: 560px;
-            left: 5px;
-        }
-
-        img {
-            -webkit-filter: grayscale(100%);
-            filter: gray;
-
-        }
-
-        img:hover {
-            -webkit-filter: grayscale(0%);
-            filter: none;
-        }
-
-        * {
-            -webkit-transition: all 0.45s ease-in-out;
-            transition: all 0.45s ease-in-out;
-        }
-
-        ::selection {
-            color: transparent;
-            text-shadow: 0 0 2px #000;
-            transition: all 250ms ease-in;
-        }
-
-        ::-moz-selection {
-            color: transparent;
-            text-shadow: 0 0 2px #000;
-            transition: all 250ms ease-in;
-        }
     </style>
     <script>
 
@@ -119,19 +101,11 @@
 </head>
 
 <body>
-    <div class="title paragraph">
+    <figure class="snip1132">
        <a href="./sendemail.html">
-        <img src="./images/limitless.png" >
+        <img src="./images/limitless.png" width="585px" height="585px">
         </a>
-    </div>
-    <!--<div class="link">
-        <table width="575px">
-            <td> <a href="./page4.html">&#706 previous page
-                </a></td>
-            <td align="right"> <a href="./page6.html">
-                    next page &#707
-                </a></td>
-        </table>
-    </div>
-    -->
-</body></html>
+    </figure>
+</body>
+
+</html>
