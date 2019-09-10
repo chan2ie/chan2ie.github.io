@@ -7,6 +7,7 @@ You can check out some of them below.
 [Move to Humanities and Creativity Midterm Project ENG](https://chan2ie.github.io/hc_midterm_eng/index.html)
 
 Projects from Intro to Wev Development
+
 [Move to practice from class 2019. 09. 09](https://chan2ie.github.io/Intro_to_Web_Development/fist_project/index.html)
 
 Optimized for CHROME, WINDOW 10.  
