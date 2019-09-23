@@ -9,6 +9,7 @@ You can check out some of them below.
 Projects from Intro to Wev Development
 
 [Move to practice from class 2019. 09. 09](https://chan2ie.github.io/Intro_to_Web_Development/fist_project/index.html)
+[Move to practice from class 2019. 09. 23](https://chan2ie.github.io/Intro_to_Web_Development/week_03/index.html)
 
 Optimized for CHROME, WINDOW 10.  
 
